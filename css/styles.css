@@ -1,0 +1,145 @@
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: biko;
+  src: url(font/Biko_Regular.otf);
+}
+
+@font-face {
+  font-family: chardons;
+  src: url(font/Chardons.ttf);
+}
+
+body {
+  background-image:
+    linear-gradient(
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.25)
+    ),
+    url("img/jungle.jpeg");
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+  font-family: biko;
+}
+
+/*navbar section*/
+/*more here*/
+
+.nav-bar {
+  color: white;
+  float: right;
+}
+
+.nav-bar li {
+  display: inline;
+  margin-right: 35px;
+  font-size: 1.5em;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.regular-link a:hover {
+  background-color: #2d8659;
+  padding: 10px;
+  border-radius: 5px;
+  -o-transition:.5s;
+   -ms-transition:.5s;
+   -moz-transition:.5s;
+   -webkit-transition:.5s;
+   transition:.5s;
+}
+
+#sign-in {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: white;
+  padding: 10px;
+}
+
+#sign-up {
+  background-color: #ffcc66;
+  border-radius: 5px;
+  border-color: white;
+  padding: 10px;
+}
+
+#sign-up a {
+  color: black;
+}
+
+#sign-in a:hover {
+  color: black;
+  -o-transition:.5s;
+   -ms-transition:.5s;
+   -moz-transition:.5s;
+   -webkit-transition:.5s;
+   transition:.5s;
+}
+
+
+#sign-up:hover {
+  background-color: #fff;
+  -o-transition:.5s;
+   -ms-transition:.5s;
+   -moz-transition:.5s;
+   -webkit-transition:.5s;
+   transition:.5s;
+}
+
+#sign-in:hover {
+  background-color: #fff;
+  -o-transition:.5s;
+   -ms-transition:.5s;
+   -moz-transition:.5s;
+   -webkit-transition:.5s;
+   transition:.5s;
+}
+
+/*title stuff*/
+
+.motto {
+  font-size: 60%;
+  font-weight: normal;
+}
+
+
+.title {
+  position: relative; /* or absolute */
+  text-align: center;
+  margin-top: 300px;
+  font-weight: bold;
+  color: white;
+  font-size: 300%;
+}
+
+#header {
+  margin-bottom: -30px;
+}
+
+.logo {
+  background-color: #ffcc66;
+  border-radius: 50%;
+  font-family: chardons;
+  padding: 40px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  font-size: 200%
+  /*color: white;*/
+}
+
+/*#C {
+  padding: 0;
+}*/
