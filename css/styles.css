@@ -18,6 +18,10 @@ html {
 }
 
 body {
+  font-family: biko;
+}
+
+#intro {
   background-image:
     linear-gradient(
     rgba(0, 0, 0, 0.25),
@@ -27,8 +31,10 @@ body {
   background-size:     cover;
   background-repeat:   no-repeat;
   background-position: center center;
-  font-family: biko;
+  height: 900px;
+  margin: -10px;
 }
+
 
 /*navbar section*/
 /*more here*/
@@ -41,7 +47,7 @@ body {
 .nav-bar li {
   display: inline;
   margin-right: 35px;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .nav-bar a {
