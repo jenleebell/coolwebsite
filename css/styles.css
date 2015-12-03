@@ -182,3 +182,13 @@ body {
   color: #333333;
   line-height: 30px;
 }
+
+#third-left {
+  float: left;
+  margin-right: 200px;
+}
+
+#third-right {
+  float: right;
+  margin-bottom: 300px;;
+}
